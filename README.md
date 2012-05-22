@@ -1,5 +1,8 @@
-REQUIREMENTS
-============
+README
+======
+
+Requirements
+------------
 
 Software:
  * JDK 1.6.0_18
@@ -11,8 +14,8 @@ Hardware:
  * 1GB hard disc space
 
  
-BUILD
-=====
+Build
+-----
 
 Cleanup the workspace and build the package:
 
@@ -31,8 +34,9 @@ If you need javadoc files:
 
 Then, you will find Javadocs in *target/site/apidocs/docs*
 
-INSTALL
-=======
+
+Install
+-------
 
 After compilation, you will find an executable jar file under
 *target/bsv-X.X.X.jar*
