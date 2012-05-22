@@ -1,0 +1,10 @@
+@relation HeaderOnlyArffTestFile1
+
+@attribute var_0
+@attribute var_1
+@attribute var_2
+@attribute var_3
+@attribute var_4
+@attribute class {0,1}
+
+@data

@@ -1,0 +1,48 @@
+# backup files
+*~
+*.~*
+*.backup
+*.bak
+
+# temp files
+*.sw[a-p]
+
+# special Linux files
+.directory
+
+# special Windows files
+Desktop.ini
+Thumbs.db
+
+# special OSX files
+._*
+.DS_Store
+.Spotlight-V100
+.Trashes
+Icon?
+*.synctex.*
+
+# Eclipse files
+.checkstyle
+.classpath
+.project
+.settings/*
+
+# ignore javadoc folder, so nobody pushes their javadoc again..
+doc/*
+
+# Netbeans files
+nbactions.xml
+nb-configuration.xml
+
+# runtime files
+*.log
+
+# build files
+target/*
+
+# generated test code for import unit test
+*.expected.txt
+
+# bsv project files
+*.bsv

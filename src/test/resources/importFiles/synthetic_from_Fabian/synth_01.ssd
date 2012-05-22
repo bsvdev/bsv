@@ -1,0 +1,8 @@
+subspace    0     dimensions = 2     [0, 1]
+subspace    1     dimensions = 2     [2, 3]
+subspace    2     dimensions = 4     [4, 5, 6, 7]
+subspace    3     dimensions = 3     [8, 9, 10]
+subspace    4     dimensions = 5     [11, 12, 13, 14, 15]
+subspace    5     dimensions = 2     [16, 17]
+subspace    6     dimensions = 5     [18, 19, 20, 21, 22]
+subspace    7     dimensions = 2     [23, 24]
