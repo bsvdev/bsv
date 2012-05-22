@@ -1,0 +1,7 @@
+[ /Author (Black Sheep Vision Developer Team)
+/Creator ()
+/Producer (pdflatex and ghostscript)
+/Title (Black Sheep Vision User Guide)
+/Subject ()
+/Keywords ()
+/DOCINFO pdfmark

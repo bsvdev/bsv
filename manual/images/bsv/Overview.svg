@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.2"
+   width="1366"
+   height="721"
+   id="svg2930">
+  <defs
+     id="defs2934" />
+  <image
+     xlink:href="file:///home/daniel/kit/bsv-orgdata/manual/images/bsv/Overview.png"
+     x="0"
+     y="0"
+     width="1366"
+     height="721"
+     id="image2940" />
+  <path
+     d="m 76.815401,15.21097 0,-125.49051"
+     id="path2980"
+     style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     d="m 757.50633,15.971518 0,-126.251058"
+     id="path2982"
+     style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     d="m 176.3948,81.031068 0,-137.673989"
+     id="path2984"
+     style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     d="m 1270.2577,78.879912 0,-134.447255"
+     id="path2986"
+     style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     d="m 224.79581,713.47095 0,95.72645"
+     id="path2988"
+     style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <text
+     x="10.471316"
+     y="-122.2418"
+     id="text2990"
+     xml:space="preserve"
+     style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O Bold"><tspan
+       x="10.471316"
+       y="-122.2418"
+       id="tspan2992"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O Bold">Menubar</tspan></text>
+  <text
+     x="110.61387"
+     y="-67.375946"
+     id="text2994"
+     xml:space="preserve"
+     style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O Bold"><tspan
+       x="110.61387"
+       y="-67.375946"
+       id="tspan2996"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O Bold">Groups Panel</tspan></text>
+  <text
+     x="669.01453"
+     y="-119.34147"
+     id="text2998"
+     xml:space="preserve"
+     style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O Bold"><tspan
+       x="669.01453"
+       y="-119.34147"
+       id="tspan3002"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O Bold">View Chooser</tspan></text>
+  <text
+     x="118.88851"
+     y="833.95844"
+     id="text3006"
+     xml:space="preserve"
+     style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O Bold"><tspan
+       x="118.88851"
+       y="833.95844"
+       id="tspan3008"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O Bold">Subspace Panel</tspan></text>
+  <text
+     x="1189.2365"
+     y="-66.311745"
+     id="text3010"
+     xml:space="preserve"
+     style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O Bold"><tspan
+       x="1189.2365"
+       y="-66.311745"
+       id="tspan3012"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O Bold">Detail Panel</tspan></text>
+</svg>

@@ -46,3 +46,10 @@ target/*
 
 # bsv project files
 *.bsv
+
+# LaTeX files
+manual/*.aux
+manual/*.log
+manual/*.out
+manual/*.pdf
+manual/*.toc

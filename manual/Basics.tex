@@ -1,0 +1,62 @@
+% vim: set filetype=tex
+
+\section{\color{fancy}Chapter 3: Basics}
+
+\subsection{Using The Program}
+The program's functions can be accessed by mouse and furthermore, to improve the interactivity, there are selected shortcuts, as listed below. In the top left corner you can find buttons to open the dialogs to import and export new data or to show the settings and info dialog. In the middle of the screen you are able to switch to another view by selecting the desired tab. By clicking on the edge of the left side on your screen you toggle the fading effect of the Groups Panel. This behavior is, similar to the Detail View at the right side, and is possible to use in every view. For detailed information to a specific view, see the subsequent chapters.
+
+\begin{center}
+  \begin{spacing}{2.1}
+  \begin{tabular}{c|l}
+    \color{fancy}Shortcut & \color{fancy}Function\\
+    \hline\hline
+    \keystroke{F1} & Shows the info dialog.\\
+    \Ctrl + \keystroke{N} & Opens the dialog to create a new workspace.\\
+    \Ctrl + \keystroke{I} & Opens the dialog to import new data.\\
+    \Ctrl + \keystroke{E} & Opens the dialog to export the data to \textbf{.csv} or \textbf{.arff}.\\
+    \Ctrl + \Shift + \keystroke{S} & Opens the settings dialog.\\
+    \Ctrl + \keystroke{1} & Shows the Table View.\\
+    \Ctrl + \keystroke{2} & Shows the Indicator Plot.\\
+    \Ctrl + \keystroke{3} & Shows the Scatterplot.\\
+    \Ctrl + \keystroke{4} & Shows the Histogram.\\
+    \Ctrl + \Tab & Switches to the next view.\\
+    \Ctrl + \Shift + \Tab & Switches to the previous view.\\
+    \Ctrl + \Spacebar & Shows the dialog to switch the active subspace.\\
+    \Ctrl + \Shift + \keystroke{F} & Shows the dialog to rename features.\\
+    \Ctrl + \Shift + \keystroke{G} & Creates a new group.\\
+    \Ctrl + \keystroke{,} & Shows and hides the groups panel.\\
+    \Ctrl + \keystroke{.} & Shows and hides the detail view.\\
+  \end{tabular}
+  \end{spacing}
+\end{center}
+
+\subsection{Import}
+The workspace dialog is used to load an existing database or to create a new empty one. This dialog is prompted automatically when the program is started. It accepts only \textbf{.bsv} files. If the dialog is given a file without the \textbf{.bsv} extension or a file that does not exist, it will add the proper extension and create a new empty database. In order to switch the current workspace the user can either use the corresponding button in the top left corner or the appropriate shortcut.
+As soon as the user opens an empty database or creates a new one, an import dialog will show up. It needs an input file (\textbf{.arff} or \textbf{.csv}) and an algorithm output file (\textbf{.ssd}) in order to initialize the database with values. As soon as the import successfully finishes, the other components of the program will be initialized. The Table View will be shown as default view.
+
+\subsection{Export}
+Exporting a range of elements, is as easy as pressing the export button. You have to select a file (\textbf{.arff} or \textbf{.csv}) and are able to optionally generate an \textbf{.ssd} file.
+
+\subsection{Settings}
+By pressing the settings button a dialog will appear, in which you are able to change the language, used to localize the program.
+
+\subsection{Views}
+Altogether you can choose from four different views and each has its own advantages to explore the imported data. The Table View is useful to get accurate values from a specific element or to sort the elements by a desired feature. Moreover the Table View is very handy to select single elements by ID or after sorting. The second view is the Feature Indicator, which gives you an overview over all features in one subspace and the trend of one element in comparison to other elements. Furthermore the view provides you tools to sort the order of features and to select elements in several features. For visualizing two specific features you can use the Scatterplot. It displays the features in a two dimensional coordinate system and allows you to zoom and shift the view. In addition you can do a selection with a lasso tool, which emphasizes these elements in other views, too. The fourth and last view is the Histogram. It displays the distribution of elements in a certain feature. This is useful to examine which feature values often occur and which ones are very rare, thus maybe indicating an outlier.
+
+\subsection{Detail View}
+On the right side you find the Detail View, which gives you more information about the selected elements. You are able to choose among different statistical measurements, like the median, variance and standard deviation. The calculated details are displayed in combination with the involved groups.
+
+\subsection{Groups Panel}
+The Groups Panel (Figure \ref{fig:overview}) is located at the left side of the main window. This panel can be shown or hidden by pressing the arrow button to the left of it. When hidden, the free space is automatically taken by the current view which offers better visualization of the data, especially on small monitors and display resolutions. The number of groups is shown in the top left corner of the panel. This number changes when creating or deleting a group. A group can be created by using the button right next to this number. Below you can find the groups themselves, separated by thin lines. Every group has a name shown in bold letters at the top left side. In order to change this name, you must simply double click on it and type in a new one. There are two buttons on the same line, right to the group name. One for activating and deactivating the group and the other for deleting the group.
+After this information, all constraints associated with this group are listed. A constraint can be either static or dynamic and is used to restrict elements in a group.
+\textbf{A group with no constraints contains all objects.}
+Whenever a constraint is added, the objects in the group are intersected with the objects that satisfy the new constraint. The result of this intersection determines the objects that "stay" in the group after taking the new constraint into consideration. All constraints can be activated, deactivated or deleted.
+
+At the bottom part of each group reside the buttons for adding a constraint, changing the color and adding notes. The color of the group can be either static or dynamic, where static means it will be the same for all objects and dynamic that it will be calculated according to the value of a specified feature.
+
+\subsection{Subspaces}
+You can find the section for subspaces at the bottom of the main window (Figure \ref{fig:overview}). On the very left side you can open a dialog to edit the name of the available features or outlierness. Next to that you are able to open a dialog to visualize all existing subspaces and to select a new active subspace. In addition, you can filter the subspaces by entering a search query. All words, split by space, have to be within the name of the subspace. In the middle of this section you can see the currently active subspace and on the right side you can switch the effective outlierness calculation.
+
+\subsection{Effective Outlierness}
+The effective outlierness is a statistical measure for the outlierness in one subspace. It is calculated from all outlierness values within one subspace. You are currently able to choose among the calculation by average, minimum or maximum. If the subspace changes the value is automatically adjusted. Furthermore it can be visualized in the same way as other features with real values.
+

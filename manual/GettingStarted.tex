@@ -1,0 +1,32 @@
+% vim: set filetype=tex
+
+\section{\color{fancy}Chapter 2: Getting Started}
+
+\subsection{What You Need}
+In order to visualize your data, you have to import it. This can be done by choosing either a valid file in the \textbf{Arff} specification format, or in the \textbf{CSV} format, during the import process. Furthermore you have to provide a valid \textbf{SSD} file, containing information about all available subspaces.
+
+\subsection{System Requirements}
+Depending on the size of your data, the system requirements are heavily fluctuating. Therefore you should take the following specifications with a grain of salt. They should at least give you a rough idea of the hardware you will need.
+
+\begin{tabular}{p{0.3\linewidth}p{0.6\linewidth}}
+  \color{fancy}Minimum & \color{fancy}Recommended \\ \hline
+  1 GB RAM & 3 GB RAM \\ \hline
+  Dual Core, 1.5GHz & Dual Core, 2GHz \\ \hline
+  Onboard graphics card & Dedicated graphics card \\ \hline
+  Keyboard, Touchpad & Keyboard, Mouse\\ \hline
+\end{tabular}
+
+\subsection{Starting the Program}
+In order to be able to start the program, you have to have at least the Java Runtime Environment 6 installed. This should be the only step you have to do manually. Starting the program is now as easy as double clicking the supplied JAR file.
+
+\subsection{Improving The Performance}
+If you want to squeeze the last bit out of your machine, we discovered that by passing some aggressive parameters to the Java Virtual Machine, a performance boost is noticeable. However, we recommend you try the normal procedure first and come back if you really need to. No matter what, you should adjust the following parameters to your specific circumstances:
+
+\begin{framed}
+\begin{verbatim}
+java -Xmx1024M -Xms1024M -XX:+UseFastAccessorMethods
+     -XX:+AggressiveOpts -XX:+UseAdaptiveGCBoundary
+     -XX:SurvivorRatio=16 -XX:+UseParallelGC
+     -XX:ParallelGCThreads=4 -jar bsv-1.0.2.jar
+\end{verbatim}
+\end{framed}
